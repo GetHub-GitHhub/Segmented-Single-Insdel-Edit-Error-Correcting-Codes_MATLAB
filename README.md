@@ -13,7 +13,7 @@ If the logical number is `0', the decoding fails.
 
 The roles for each documents.
 	1) RandomInsdel/RandomEdit.m	Generates the random errors in each segments
-	2) VT1/VT2.m						The encoders of VT codes
+	2) VT1/VT2.m				The encoders of VT codes
 	3) SegInsdelECC/SegEditECC.m		Encoders based on the marker-structure
 	4) SegInsdelDec/SegEditDec.m		Decoders based on the proof
-	5) TestInsdel/TestEdit.m			The script for testing decoding process
+	5) TestInsdel/TestEdit.m		The script for testing decoding process
