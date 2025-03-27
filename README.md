@@ -12,6 +12,7 @@ If the logical number is `1', the decoded results (collected as `Decoded_VT') ar
 If the logical number is `0', the decoding fails.
 
 The roles for each documents.
+
 	1) RandomInsdel/RandomEdit.m	Generates the random errors in each segments
 
 	2) VT1/VT2.m				The encoders of VT codes
