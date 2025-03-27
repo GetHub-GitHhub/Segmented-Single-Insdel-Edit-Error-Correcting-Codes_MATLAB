@@ -1,0 +1,16 @@
+function [s] = segVT(t,n)
+%   Input the number of segments t and length n
+%   Out put binary segments, each segment is a VT codeword, encoding from
+%   random vector but not all zeros or ones
+
+s = round(rand(2*t,n));
+s(s == zeros())
+
+
+
+
+
+
+
+end
+
