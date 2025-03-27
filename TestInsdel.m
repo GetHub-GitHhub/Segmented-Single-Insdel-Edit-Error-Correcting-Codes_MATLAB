@@ -12,9 +12,9 @@ clc;
 
 % Step 4.   Output the comparison result between segmented string and the recovery of its insdel erroneous
 
-t = 40; n = 6;  % Set segment number and information length
+t = 40000; n = 6;  % Set segment number and information length
 
-f = 1;
+f = 1000;
 F = ones(f,t-3);
 for h = 1:f
 %% 
