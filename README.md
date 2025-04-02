@@ -2,14 +2,14 @@
 This is the MATLAB code for the paper `Marker+Codeword+Marker: A Coding Structure for Segmented Single-Insdel/-Edit Channels' by Zhen Li, Xuan He and Xiaohu Tang
 
 
-To test our code, open `TestInsdel.m' or `TestInsdel.m',
+To test our code, open TestInsdel.m or TestEdit.m,
 
 	* The inputs are the Number of segments t and the Number of cycles f.
 
 	* The output is `isAllZero'.
 
-If the logical number is `1', the decoded results (collected as `Decoded_VT') are the same as the original transmitted VT codewords. All the errors are corrected.
-If the logical number is `0', the decoding fails.
+If the logical number is 1, the decoded results (collected as `Decoded_VT') are the same as the original transmitted, namely, all the errors are corrected.
+If the logical number is 0, the decoding fails.
 
 The roles for each documents.
 
